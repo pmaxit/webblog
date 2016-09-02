@@ -1,0 +1,129 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Diary</title>
+    <meta name="description" content="Thoughts, stories and ideas.">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telphone=no, email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="content/images/2016/09/AAEAAQAAAAAAAAVYAAAAJDc4MDAzZjdlLTJkOGQtNDM4Ny04MGI3LWI1YTI2ODRmNzY0NA.jpg">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script>
+    //theme
+    var default_theme = "dark";//"dark" or "light".or "default" to choose theme by time
+    var light_theme = "/assets/css/white.css?v=5f66660aec";//the location of light theme css
+    var dark_theme = "/assets/css/grey.css?v=5f66660aec";//the location of dark theme css
+    //
+    var default_post = "/welcome-to-ghost/";//the post which show when the blog main page is open
+</script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css?v=5f66660aec">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css?v=5f66660aec">
+    <link rel="stylesheet" type="text/css" href="assets/css/nprogress.css?v=5f66660aec">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css?v=5f66660aec">
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Diary">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Diary">
+    <meta property="og:description" content="Thoughts, stories and ideas.">
+    <meta property="og:url" content="http://localhost:2368/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Diary">
+    <meta name="twitter:description" content="Thoughts, stories and ideas.">
+    <meta name="twitter:url" content="http://localhost:2368/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Diary",
+        "logo": "http://localhost:2368/content/images/2016/09/AAEAAQAAAAAAAAVYAAAAJDc4MDAzZjdlLTJkOGQtNDM4Ny04MGI3LWI1YTI2ODRmNzY0NA.jpg"
+    },
+    "url": "http://localhost:2368/",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    },
+    "description": "Thoughts, stories and ideas."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.10">
+    <link rel="alternate" type="application/rss+xml" title="Diary" href="rss/index.html">
+</head>
+<body class="home-template">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 col-lg-3" id="left-bar">
+            <div class="row">
+                <div class="col-xs-4 col-md-4" id="navigation">
+                    <div class="row scroll">
+    <br>
+
+    <div id="logo" class="text-center">
+        <a href="index.html"><img src="content/images/2016/09/AAEAAQAAAAAAAAVYAAAAJDc4MDAzZjdlLTJkOGQtNDM4Ny04MGI3LWI1YTI2ODRmNzY0NA.jpg" alt="Diary"></a>
+    </div>
+    <br>
+
+    <div id="category">
+        <div id="category-list" class="scroll">
+            <ul class="nav nav-stacked">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-home" data-toggle="tab" onclick="navigationFunction(this)">Home</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <footer id="nav-footer">
+        <div id="style-changer">
+            <a id="light" href="javascript:changeTheme('light');" style="display: inline-block;">
+                <img src="assets/image/PH_Day_50x50.png">
+            </a>
+            <a id="dark" href="javascript:changeTheme('dark');" style="display: none;">
+                <img src="assets/image/PH_Night_50x50.png">
+            </a>
+        </div>
+    </footer>
+</div>
+                </div>
+                <div class="col-xs-8 col-md-8" id="blog-list">
+                    <div class="row">
+    <div class="list-group scroll">
+        <div class="list-container">
+                <article href="/welcome-to-ghost/" class="list-group-item blog-excerpt post tag-getting-started" onclick="loadBlog(this)">
+                    <div class="blog-excerpt-title text-overflow">
+                        Welcome to Ghost
+                    </div>
+                    <div class="blog-excerpt-date text-overflow">
+                        2016年09月02日
+                    </div>
+                    <div class="blog-excerpt-content">
+                        You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can ma
+                    </div>
+                </article>
+        </div>
+        
+    </div>
+</div>                </div>
+            </div>
+        </div>
+        <div class="hidden-xs hidden-sm col-xs-12 col-md-8 col-lg-9" id="blog-view">
+                    </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.min.js?v=5f66660aec"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js?v=5f66660aec"></script>
+<script type="text/javascript" src="assets/js/nprogress.js?v=5f66660aec"></script>
+<script type="text/javascript" src="assets/js/headroom.min.js?v=5f66660aec"></script>
+<script type="text/javascript" src="assets/js/prism.js?v=5f66660aec"></script>
+<script type="text/javascript" src="assets/js/default.js?v=5f66660aec"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
